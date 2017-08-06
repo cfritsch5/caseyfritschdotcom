@@ -2,26 +2,32 @@
 /* CSS Document */
 
 body {
-	width: 900px;
+	/*width: 900px;*/
 	margin: auto;
+	text-align: center;
 }
+
 p {
 	text-align: justify;
-
 }
+
 html {
 	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 	font-size: 18px;
 	font-weight: 500;
 	line-height: 32px;
 }
+
 /*Header and Navigation*/
 #logo {
-	display: block;
-	margin: auto;
-	width: 70%;
-	max-width:1000px;
+	width: 300px;
 }
+
+.top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+	}
 
 img {
 	margin-right: 200px;
@@ -31,39 +37,40 @@ img {
 
 header {
 	margin-left:0;
-	max-width: 1000px;
+	/*max-width: 1000px;*/
 }
 
 nav {
-	width: 900px;
+    background: black;
+		padding: 0;
+		margin: 0;
 }
-nav ul {
-    list-style-type: none;
-	padding: 0;
-    overflow: hidden;
-    background-color: #333;
+
+nav a {
+    text-decoration: none;
+    color: white;
+		width: 100%;
+		display: flex;
+		justify-content: center;
 }
 
 nav li {
-	width: 150px;
-   	color: #000;
-	display: block;
-	float:left;
-	text-align:center;
+    text-decoration: none;
+		width:100%;
 }
 
-
-nav li a {
-    color: white;
-    text-align: center;
-    padding: 30px 30px;
-	text-decoration: none;
+nav li:hover {
+	background-color: #666;
 }
 
-
-nav li a:hover:not(.active) {
-    background-color: #666;
+nav ul {
+		width: 80%;
+    display: flex;
+    list-style-type: none;
+		padding: 0;
+		margin: 0;
 }
+
 
 /*end nav stuff*/
 
@@ -81,7 +88,7 @@ nav li a:hover:not(.active) {
 }
 
 #world {
-	padding-right: 400px;
+	/*padding-right: 400px;*/
 }
 /*Resume*/
 
@@ -102,18 +109,22 @@ nav li a:hover:not(.active) {
 	padding-left: 50px;
 }
 
-section {
-	margin-top: 25px;
-	padding-top: 25px;
-	margin-left:25px;
-	margin-right: 25px;
-/*	max-width: 1000px;
-	min-width: 850px;
-	min-height: 600px;
-*/}
-h2 {
-	text-align:center;
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
+/*
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}*/
+
+section {
+	width: 900px;
+}
+
 #resume h3 {
 	text-decoration:underline;
 }
