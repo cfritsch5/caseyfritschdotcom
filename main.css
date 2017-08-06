@@ -20,7 +20,8 @@ html {
 
 /*Header and Navigation*/
 #logo {
-	width: 300px;
+	width: 100px;
+	padding: 10px;
 }
 
 .top {
@@ -44,6 +45,9 @@ nav {
     background: black;
 		padding: 0;
 		margin: 0;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
 }
 
 nav a {
@@ -242,15 +246,15 @@ section {
 
 footer {
 	margin-top: 100px;
-
 	padding-bottom: 200px;
+	display: flex;
+	justify-content: center;
 }
 
 footer h4 {
 	display:block;
 	float:left;
 	font-size:36px;
-	padding-left: 140px;
 	padding-right: 10px;
 }
 
