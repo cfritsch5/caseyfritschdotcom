@@ -1,0 +1,138 @@
+header img {
+  width: 150px;
+  display: inline-block;
+  min-width: 20px;
+  height: 10%;
+}
+
+body {
+  margin: auto;
+  max-width: 850px;
+  margin-top: 5%;
+}
+
+@media print {
+  body {margin: 0;}
+}
+
+section {
+  /*border-top: 5px solid grey;*/
+  display: block;
+}
+
+.section-ul {
+  margin: 10px;
+  padding: 5px;
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  /*color: black;*/
+}
+
+ul {
+  list-style-type: none;
+}
+
+p {
+  padding: 0px;
+  /*padding-left: 20px;*/
+  margin: 0;
+}
+
+.title {
+  display: inline-block;
+}
+
+.right {
+  float: right;
+}
+
+.connect {
+  float: right;
+  padding-right: 5%;
+  margin: 0;
+}
+
+.connect li {
+  padding-top: 8px;
+}
+
+.connect a {
+  display: flex;
+  justify-content: space-between;
+}
+
+.p-connect {
+  width: 100%;
+  text-align: center;
+}
+
+.connect img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  padding-right: 10px
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  padding-right: 10%;
+  padding-left: 5%;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.skills ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section_head {
+  padding: 0;
+  margin: 0;
+  /*text-align: center;*/
+  border-bottom: 3px solid grey;
+  width: 30%;
+}
+
+.project-detail {
+  list-style-type: disc;
+  margin: 0;
+  margin-top: 5px;
+  padding-left: 20px;
+}
+
+.skills .project-detail {
+  list-style-type: none;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+.section-ul li {
+  padding-bottom: 8px;
+}
+
+.project-detail li {
+  padding: 0;
+}
+
+.project-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-descript {
+  font-size: 80%;
+}
+
+h4 {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
