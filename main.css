@@ -5,6 +5,7 @@ body {
 	/*width: 900px;*/
 	margin: auto;
 	text-align: center;
+	background: #e8eced;
 }
 
 p {
@@ -28,6 +29,7 @@ html {
     display: flex;
     justify-content: space-around;
     align-items: center;
+		background: white;
 	}
 
 img {
@@ -183,6 +185,7 @@ section {
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-bottom:10px;
+	background: white;
 }
 .projects h5 {
 	text-align:center;
