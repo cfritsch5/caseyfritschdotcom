@@ -301,3 +301,17 @@ footer h4 {
 	padding-left: 20px;
 
 }
+.dropdown-content {
+	display: none;
+	position: absolute;
+
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
