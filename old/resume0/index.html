@@ -3,9 +3,19 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="resume_style.css">
+    <script type="text/javascript">
+      function printResume() {
+        window.print();
+      }
+    </script>
     <title>Casey Fritsch - Resume</title>
   </head>
   <body>
+    <div class="print-hover">
+      <button class="print" onclick="printResume()" type="button" name="print"><img src="../images/printicon.png" alt=""></button>
+    </div>
+
+    <div class="page">
     <header>
       <div class ="top">
       <img src="logos/cf_logo_large.png" alt="Casey Fritsch Logo">
@@ -31,7 +41,8 @@
         <li>caseyfritsch@gmail.com</li>
       </ul>
     </header>
-
+  <div class="columns">
+    <div class="right-column"
     <section id="projects">
       <h3 class="section_head">Projects</h3>
       <ul class="section-ul">
@@ -68,6 +79,46 @@
         </li>
       </ul>
     </section>
+    <section>
+      <h3 class="section_head">Experience</h3>
+      <ul class="section-ul">
+        <li>
+          <h4 class="title">Anderson Tech ‐ Technical Project Liason</h4>
+          <h4 class="right">August 2016 ‐ January 2017</h4>
+          <ul class="project-detail">
+            <li>Created and maintained technology infrastructure</li>
+          </ul>
+        </li>
+        <li>
+          <h4 class="title">AmeriCorps City Year Sacramento ‐ Corps Member</h4>
+          <h4 class="right">July 2015 ‐ July 2016</h4>
+          <ul class="project-detail">
+            <li>Taught small group support lessons for Algebra.</li>
+          </ul>
+          </p>
+        </li>
+        <li>
+          <h4 class="title">Illinois Institute of Technology ‐ Resident Advisor</h4>
+          <h4 class="right">August 2013 ‐ May 2015</h4>
+          <ul class="project-detail">
+            <li>Proposed and implemented diversity and safe space training each semester and
+              community development programming monthly</li>
+              <li>Founded the partnership event between the Human Library Project
+                Chicago and IIT. Volunteered as Book; March 16th and April 16th 2015
+              </li>
+              <li>Responsible for the safety and wellbeing of 50+ residents</li>
+          </ul>
+        </li>
+        <li>
+          <h4 class="title">Illinois Institute of Technology ‐ Teachers Assistant</h4>
+          <h4 class="right">January 2014 ‐ May 2014</h4>
+          <ul class="project-detail"><li>Tutored students on MatLab and led labs for 30 students in
+            Computer Science for Engineers</li></ul>
+        </li>
+      </ul>
+    </section>
+  </div>
+  <div class="left-column">
     <section id="education">
       <h3 class="section_head">Education</h3>
       <ul class="section-ul">
@@ -111,43 +162,7 @@
         <li>GIT</li>
       </ul>
     </section>
-    <section>
-      <h3 class="section_head">Experience</h3>
-      <ul class="section-ul">
-        <li>
-          <h4 class="title">Anderson Tech ‐ Technical Project Liason</h4>
-          <h4 class="right">August 2016 ‐ January 2017</h4>
-          <ul class="project-detail">
-            <li>Created and maintained technology infrastructure</li>
-          </ul>
-        </li>
-        <li>
-          <h4 class="title">AmeriCorps City Year Sacramento ‐ Corps Member</h4>
-          <h4 class="right">July 2015 ‐ July 2016</h4>
-          <ul class="project-detail">
-            <li>Taught small group support lessons for Algebra.</li>
-          </ul>
-          </p>
-        </li>
-        <li>
-          <h4 class="title">Illinois Institute of Technology ‐ Resident Advisor</h4>
-          <h4 class="right">August 2013 ‐ May 2015</h4>
-          <ul class="project-detail">
-            <li>Proposed and implemented diversity and safe space training each semester and
-              community development programming monthly</li>
-              <li>Founded the partnership event between the Human Library Project
-                Chicago and IIT. Volunteered as Book; March 16th and April 16th 2015
-              </li>
-              <li>Responsible for the safety and wellbeing of 50+ residents</li>
-          </ul>
-        </li>
-        <li>
-          <h4 class="title">Illinois Institute of Technology ‐ Teachers Assistant</h4>
-          <h4 class="right">January 2014 ‐ May 2014</h4>
-          <ul class="project-detail"><li>Tutored students on MatLab and led labs for 30 students in
-            Computer Science for Engineers</li></ul>
-        </li>
-      </ul>
-    </section>
+  </div>
+</div>
   </body>
 </html>

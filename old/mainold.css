@@ -1,0 +1,449 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	/*width: 900px;*/
+	margin: auto;
+	text-align: center;
+	background: #e8eced;
+}
+
+p {
+	text-align: justify;
+}
+
+html {
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 32px;
+}
+
+/*Header and Navigation*/
+.main-image {
+	border-radius: 50%;
+	border: 5px solid #386FA4;
+	background: #386FA4;
+}
+
+.logo {
+    /* transition: all 1s ease-in-out; */
+    width: 122px;
+    /* padding: 10px; */
+    position: absolute;
+    margin-top: 175px;
+    margin-left: 185px;
+    z-index: 2;
+    background: white;
+		backface-visibility: hidden;
+}
+
+#f1_container img.logo {
+    width: 120px;
+    height: 120px;
+}
+
+#f1_container img {
+	width: 300px;
+	height: 300px;
+}
+#f1_container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  z-index: 1;
+}
+#f1_container {
+  perspective: 1000px;
+}
+#f1_card {
+  width: 300px;
+  height: 300px;
+  transform-style: preserve-3d;
+  transition: all 1.0s linear;
+}
+#f1_container:hover #f1_card {
+  transform: rotateY(180deg);
+}
+.face {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  backface-visibility: hidden;
+}
+.face.back {
+  display: block;
+  transform: rotateY(180deg);
+  color: white;
+  text-align: center;
+}
+
+.centered {
+    width: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 8%;
+    background: #386FA4;
+    height: 250px;
+}
+
+.centered p {
+    margin: 0;
+    padding: 0;
+		text-align: center;
+}
+
+/*#logo:hover {
+	transform: rotateY(30deg);
+}*/
+
+/*#logo:active {
+	transform: rotateY(10deg);
+}*/
+
+.top {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #2A2D34;
+	color: #FFFFFF;
+	height: 90vh;
+	}
+
+	.sideA {
+		width: 33%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+img {
+	margin:0;
+	padding:0;
+}
+
+header {
+	margin-left:0;
+	/*max-width: 1000px;*/
+}
+
+nav {
+    background: black;
+		padding: 0;
+		margin: 0;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 50px;
+}
+
+nav li {
+    text-decoration: none;
+		width:100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 25px;
+}
+
+nav li:hover {
+	background-color: #666;
+}
+
+nav ul {
+		width: 80%;
+    display: flex;
+    list-style-type: none;
+		padding: 0;
+		margin: 0;
+}
+
+
+/*end nav stuff*/
+
+/*landing scene*/
+.title {
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 150px auto;
+    line-height: normal;
+}
+/*#self {
+	padding-left: 200px;
+}
+
+#world {
+	padding-right: 400px;
+}*/
+
+/*Resume*/
+/*
+.date {
+	float: right;
+}
+
+.job, .date {
+	display:inline-block;
+	margin: 0;
+	padding: 0;
+}*/
+
+/*#resume ul {
+	margin-top: 8px;
+	margin-bottom: 30px;
+	padding: 0;
+	padding-left: 50px;
+}*/
+/*
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+*/
+/*section {
+	width: 900px;
+}*/
+/*
+#resume h3 {
+	text-decoration:underline;
+}
+
+#resume {
+	width: 700px;
+	height: 1000px;
+	border:solid #000;
+}*/
+
+/*#mission {
+	padding-top: 10px;
+}
+
+#mission p {
+	text-align: justify;
+}
+
+#projectstitle {
+	border-bottom:3px solid #CCC;
+}
+
+#passionprojects ul{
+	border-top:3px solid #CCC;
+	border-bottom:3px solid #CCC;
+	list-style-type: none;
+	padding-left: 100px;
+  overflow: hidden;
+}
+
+#passionprojects li {
+	display: block;
+	text-align:center;
+	float:left;
+	width:200px;
+	margin-left: 0px;
+	margin-bottom: 0;
+}
+
+#passionprojects li a {
+		text-decoration: none;
+		color: #000;
+}
+
+#passionprojects h4 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size:20px;
+	text-align: center;
+}
+.projects {
+	border:solid;
+	border-color:#CCC;
+	height: 525px;
+	overflow:hidden;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom:10px;
+	background: white;
+}
+.projects h5 {
+	text-align:center;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	font-size:20px;
+}
+
+.projects p {
+	padding: 15px;
+}
+
+#adventures {
+	border-bottom:3px solid #CCC;
+	padding-top: 50px;
+}
+
+#duo {
+	float: left;
+	width: 125px;
+	padding: 10px;
+	padding-bottom: 0;
+}
+
+#duoachievements {
+	float: right;
+	width: 250px;
+	padding-left: 20px;
+	padding-right: 10px;
+}
+
+#grchallenge {
+	float: right;
+	padding-left: 10px;
+}
+
+#cc {
+	float: left;
+	width: 325px;
+	padding-right:25px;
+	padding-top: 20px;
+	padding-bottom: 100px;
+}
+.books img{
+	float: left;
+	width: 190px;
+}
+.books {
+	padding-left:20px;
+}
+
+
+#connect img {
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 40px;
+	float: left;
+	width: 50px;
+	height: 50px;
+}
+
+footer {
+	margin-top: 100px;
+	padding-bottom: 200px;
+	display: flex;
+	justify-content: center;
+}
+
+footer h4 {
+	display:block;
+	float:left;
+	font-size:36px;
+	padding-right: 10px;
+}
+
+#cylogo {
+	margin-top: 20px;
+	float: left;
+	width: 150px;
+	padding: 20px;
+}
+
+#cyphoto1 {
+	float: right;
+	width: 325px;
+	padding: 15px;
+	margin-top: 35px;
+}
+
+#cyphoto2 {
+	float: left;
+	width: 260px;
+	padding: 20px;
+}
+
+#cyphoto3 {
+	float: left;
+	width: 150px;
+	padding: 10px;
+}
+
+#humlibposter {
+	float: right;
+	width: 200px;
+	padding: 10px;
+	padding-left: 20px;
+}
+
+#MeHuman {
+	float: right;
+	width: 200px;
+	padding: 10px;
+	padding-left: 20px;
+
+}*/
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background: black;
+	width: 100%;
+}
+.dropdown-content a:hover {
+	background-color: #666;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+		width: 100%;
+}
+
+.scrolldown {
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    align-self: flex-end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     opacity: 0;
+    transition: all 0.5s linear;
+}
+
+.scrolldown:hover {
+	opacity: 0.5;
+}
+
+.scrollbutton {
+    width: 75px;
+    height: 75px;
+    background: white;
+    border-radius: 50%;
+    opacity: 0.3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scrollbutton img {
+    width: 50px;
+    height: 50px;
+		padding-top: 5px;
+}

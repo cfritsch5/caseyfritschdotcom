@@ -7,6 +7,8 @@
   <meta property="og:image" content="./images/caseylogostandin.gif">
   <link rel="stylesheet" href="main.css" />
   <link rel="shortcut icon" type="image/x-icon" href="./images/CF.ico" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -22,192 +24,113 @@
 <header>
   <body>
     <div class="top">
-      <img id="logo" src="./images/caseylogostandin.gif" alt="Casey Fritsch" />
-      <p id="world" class="title" >
-        Campaigning For A Kinder World | Fostering An Educated and Compassionate Self
-      </p>
+       <div class="sideA">
+        <div id="f1_container">
+        <div id="f1_card" class="shadow">
+          <div class="front face">
+            <img class="logo main-image" src="./images/caseylogowhitecircle.gif" alt="Casey Fritsch" />
+            <img class="main-image" src="./images/profilepicture.png"/>
+          </div>
+          <div class="back face">
+            <div class="centered">
+              <p>Creative Problem Solver</p>
+              <p> Big-Picture person who knows that the devil is in the details</p>
+              <p>Avid Reader and Volunteer</p>
+            </div>
+          </div>
+        </div>
+        </div>
     </div>
-    <nav>
+    <div class="sideB">
+      <div id="world" class="title" >
+        <h1>Full Stack Software Engineer</h1>
+        <h3>Developing Intuitive &amp; Dynamic Applications </h3>
+        <h3> Campaigning For A Kinder World</h3>
+      </div>
+    </div>
+
+    </div>
+    <nav id="stickyheader">
       <ul>
-        <li><a href="#mission">Mission</a></li> <!-- who am i-->
-        <li><a href="#passionprojects">Projects</a></li><!-- things i'm working on -->
-        <li><a href="#adventures">Adventures</a></li> <!-- things i'm proud of-->
-        <li><a href="resume/index.html">Resume</a></li>
+        <li><a class="pagelink" href="#mission">Mission</a></li>
         <li>
-          <!-- <a href="#footer">Connect</a> -->
-          <div class="dropdown">
-  <a class="dropbtn">Dropdown</a>
-  <div class="dropdown-content">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
-  </div>
-</div>
+          <div class="proj dropdown">
+            <div class="proj dropdown-content">
+              <a class="pagelink" href="#mathpath">MathPath</a>
+              <a class="pagelink" href="#shelffaux">Shelffaux</a>
+            </div>
+            <a class="dropbtn pagelink" href="#projects">Projects</a>
+          </div>
         </li>
+        <li><a class="pagelink" href="resume/cfritsch_fullstack_engineer.html">Resume</a></li>
         <li>
-          <a href="mailto:caseyfritsch@gmail.com?Subject=Hello" target="_top">Contact</a>
+          <div class="con dropdown">
+            <div class="con dropdown-content">
+              <a href="https://www.linkedin.com/in/casey-fritsch/">LinkedIn</a>
+              <a href="https://github.com/cfritsch5">GitHub</a>
+              <a href="mailto:caseyfritsch@gmail.com?Subject=Hello" target="_top">Email</a>
+            </div>
+            <a class="dropbtn">Connect</a>
+          </div>
         </li>
+
       </ul>
     </nav>
+
   </header>
-  <div class="main">
+  <div id="main">
     <section id="mission">
-      <h2>Mission</h2>
+      <h2>Personal Mission Statement</h2>
       <p>If the saying goes the more you know the more you realize how much
         you don't know, then I want to know enough to have some incling of
         how little I know in both knowledge and human experience. I would
         like to use my intelligence, technical expertise, and problem solving
-        skills to undermine the great injustices of society, and I have been
-        described as articulate, highly organized, an excellent listener, and a
-        humanitarian. I act to leave a legacy of kindness that resonates past my
+        skills to undermine the great injustices of society.
+        I act to leave a legacy of kindness that resonates past my
         own influence and makes the world a better place.
       </p>
 
     </section>
-    <section id="passionprojects">
-      <div id="projectstitle">
-        <h2 id="projectitle">Projects</h2>
-      </div>
 
-      <h4 id="App-Academy">Software Development</h4>
-      <div class="projects" >
-        <h5> <em>Developing dynamic interactive websites and killer skills</em></h5>
-        <a href="https://github.com/cfritsch5">
-          <img class="mini-logo" src="./images/github.png" />
-        </a>
-        <a href="http://www.mathpath.rocks">
-          <img clas="" src="./images/mathpath.png" />
-        </a>
-        <a href="http://www.shelffaux.pro/">
-          <img class="" src="./images/mathpath.png" />
-        </a>
-        <p>
-          I started programming when I wanted to see if I could build a math problem
-          generation app, and built a very simple basic math facts generation app with
-          the java a had learned in a summer course.
-        </p>
-      </div>
-
-      <div class="projects" >
-        <h5> <em>Expanding my ability to communicate</em></h5>
-        <a href="https://www.duolingo.com/CFritsch5">
-          <img id="duo" src="./images/duo2evensmaller.png" />
-        </a>
-        <a href="https://www.duolingo.com/CFritsch5">
-          <img id="duoachievements"src="./images/duoachievements101adj.png" />
-        </a>
-        <p> I am using free online resourses like Duolingo and LearnSpanish,
-          and have committed to practicing every day. I am focusing on Spanish
-          because it is both a widely used language nationally and internationally,
-          and is fairly accesable from english. One of my life goals is to
-          learn another language fluently and spend at least a year living in
-          a country that uses it as the main language. I believe that this would
-          be great experience to learn and appreciate how little I know of how
-          people live around the world, from small nuances to vast gulfs of
-          cultural communication or resources.
-        </p>
-      </div>
-      <h4 id="reading">Reading</h4>
-      <div class="projects" >
-        <h5> <em>Educating myself on the other expieriences </em></h5>
-        <a href="https://www.goodreads.com/user_challenges/5276066">
-          <img id="grchallenge" src="./images/GoodReadsChallenge2016Complete.PNG" />
-        </a>
-        <p> I participated in the 2016 GoodReads Reading Challenge to encourage
-          myself to read and grow. I love reading, not only to learn factual
-          information, but to also grow as a person and stand in the shoes of
-          others. In January I set my goal for 32 books, and intentionally read
-          books from diverse perspectives. I surpased my original goal and was
-          able to complete 37 books. My goal for 2017 is to increase my reading
-          goal from 32 to 52, a rate of one book a week, and write a short review
-          of each one to give back into a system I benefit from as well as help
-          me understand and remember the content. </p>
-          <div class="books">
-            <img  src="./images/books1.PNG" />
-            <img  src="./images/books2.PNG" />
-            <img  src="./images/books3.PNG" />
-            <img  src="./images/books4.PNG" />
-          </div>
+    <section id="projects">
+      <h1>Projects</h1>
+      <div id="shelffaux" class="project">
+        <div class="subsection">
+          <div class="wrap">
+          <iframe class="frame" height="300px" width="400px" src="http://www.shelffaux.pro"></iframe>
         </div>
-        <h4 id="programming">Programming</h4>
-        <div class="projects" >
-          <h5><em>Creating tools for myself and others</em></h5>
-          <a href="https://www.codecademy.com/CFritsch5">
-            <img id="cc" src="./images/codecademyCourses.PNG" />
-          </a>
-          <p>Software is one of the most flexible tools we have ever created and
-            programming and software engineering are necesssary and fun skills
-            going forward. I had taken some formal classes on programming in
-            college, Java I &amp; II, and Computer Science for Engineers (MatLab),
-            and returned to TA Comp. Sci. for Eng. However a year after graduating
-            I remembered the concepts but I was rusty on specifics. I want to have
-            sufficient depth of knowledge that I am able to create a standalone
-            program or app. I have used Codecademy to both practice the language
-            I already know, and to learn new ones. I have taught myself the basics
-            of HTML and CSS in order to build this website, and am making headway
-            with JavaScript. </p>
-          </div>
+        </div>
+        <div class="subsection">
+          <h1><a href="http://www.shelffaux.pro">Shelffaux</a></h1>
+          <h3>The personal library visualization site</h3>
+          <h2>Built with JavaScript, HTML, CSS</h2>
+          <p>People are increasingly moving to digital books,
+            however what we keep on our bookshelves says a
+            lot about who we are and have been a longstanding
+            aesthetic piece in many rooms. Shelffaux recreates the home library as an
+            interactive digital display.</p>
+        </div>
+      </div>
+      <div id="mathpath" class="project">
+        <div class="subsection">
+          <div class="wrap">
+          <img src="images/newmathpath.gif">
+        </div>
+        </div>
+        <div class="subsection">
+          <h1><a href="http://www.mathpath.rocks/#/">MathPath</a></h1>
+          <h3>A guided math learning experience</h3>
+          <h2>Built with Ruby on Rails, React, and Redux</h2>
+          <p>An Intuitive approach to math practice problems.
+            MathPath leads learners through course materials in
+            easy to digest units and lessons that progress in difficulty.  </p>
+        </div>
+      </div>
 
-          <div id="adventures">
-            <h2>Adventures</h2>
-          </div>
+    </section>
+  </div>
+  <footer>
 
-          <h4> The Human Library</h4>
-          <div class="projects" id="humanlibrary">
-            <h5><em>A Book is More Than It's Title | A life Is More Than It's Label</em></h5>
-            <a href="http://humanlibrarychicago.org/">
-              <img id="humlibposter" src="./images/HumanLibrary Event Flyer IIT Today.gif" />
-            </a>
-            <a href="http://humanlibrarychicago.org/casey-my-story-as-a-transgender-male/">
-              <img id="MeHuman"src="./images/Human Library.jpg"  />
-            </a>
-            <p> The Human Library is a project
-              that aims to start conversations in the community to better understand
-              the other side of stereotypes, discrimination, and bias. Each event
-              gathers readers, general members of the community, and books, people
-              in the communtiy who have a life experience or identity that is
-              misunderstood in our society, to have respectful and open conversations.
-              I volunteered independantly in March, and created a partnership between
-              The Human Library Chicago and The Residence and Greek Life office at
-              Illinois Institute of Technology to set up the collaborative event on
-              campus in April. I participated as a book in both the March and April
-              2015 events talking about my expeirience being transgender.</p>
-            </div>
-
-            <h4>City Year</h4>
-            <div class="projects" id="cityyear">
-              <h5><em> Give a year &nbsp; #MakeBetterHappen</em></h5>
-              <a href="https://www.cityyear.org/sacramento">
-                <img id="cylogo" src="./images/cityyearlogo.png"/>
-              </a>
-              <img id="cyphoto1" src="./images/ATT Team at St. HOPE Public Schools.JPG" />
-              <p>City Year is an Americorps program that aims to address the drop out
-                crisis  in our nations most underserved schools. Americorps volunteers
-                work full time as mentors and tutors to support students learning and growth.
-                I proudly served with City Year Sacramento for the 2015-2016 year in
-                a 9th grade Algebra 1 classroom.</p>
-              </div>
-
-            </section>
-          </div>
-          <footer id="footer">
-
-            <div id="connect">
-              <h4>Connect: </h4>
-              <a href="https://www.linkedin.com/in/casey-fritsch">
-                <img id="" src="./images/LinkedIn_logo_initials.png"/>
-              </a>
-              <a href="https://www.codecademy.com/CFritsch5">
-                <img id="" src="./images/codecademylogo.png" />
-              </a>
-              <a href="https://www.goodreads.com/user/show/18726902-casey">
-                <img id="" src="./images/goodreads_icon_1000x1000-aed808dec2093e20867b35cd56d9862d.png" />
-              </a>
-              <a href="https://www.duolingo.com/CFritsch5">
-                <img id="" src="./images/duolingo-icon.png" />
-              </a>
-            </div>
-
-          </footer>
-        </body>
-        </html>
+  </footer>
+</body>
+</html>

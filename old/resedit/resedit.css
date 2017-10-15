@@ -1,0 +1,23 @@
+body {
+  margin: 25px;
+  padding: 25px;
+
+}
+.top-band {
+  position: absolute;
+  background: blue;
+  opacity: 0.5;
+  width: 800vw;
+  height: 30%;
+  margin-top: 50px;
+}
+
+.side-band {
+  position: absolute;
+  background: green;
+  opacity: 0.5;
+  width: 300px;
+  height: 100vh;
+  margin-left: 50px;
+  z-index: 1;
+}
