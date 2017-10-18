@@ -86,7 +86,7 @@ html {
     border-radius: 50%;
     padding: 8%;
     background: #386FA4;
-    height: 250px;
+    height: 255px;
 }
 
 .centered p {
@@ -320,16 +320,15 @@ footer {
 	font-size: 40px;
 	margin: 15px;
 }
-.wrap
-{
+
+.wrap {
     width: 320px;
     height: 192px;
     padding: 0;
     overflow: hidden;
 }
 
-.frame
-{
+.frame {
     width: 1280px;
     height: 786px;
     border: 0;
