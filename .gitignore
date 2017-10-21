@@ -13,4 +13,9 @@ FFFFFF
 ## how to access
 https://andytaylor.me/2012/11/03/nfs-git/
 
-git commit --date="8 day ago" -m "refactor dropdown menu"
+git commit --date="6 day ago" -m "refactor dropdown menu"
+
+
+##
+git commit --amend --date="6 day ago" -m "new message"
+git commit --amend -m "update style"
