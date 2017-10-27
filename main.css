@@ -73,9 +73,6 @@ html {
   transform: rotateY(180deg);
   color: white;
   text-align: center;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 
 .centered {
