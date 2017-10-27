@@ -33,14 +33,12 @@ html {
     margin-left: 185px;
     z-index: 2;
     background: white;
-		backface-visibility: hidden;
-		-webkit-backface-visibility: hidden;
 }
-
+/*
 #f1_container img.logo {
     width: 120px;
     height: 120px;
-}
+}*/
 
 #f1_container img {
 	width: 300px;
@@ -69,16 +67,15 @@ html {
   width: 300px;
   height: 300px;
   backface-visibility: hidden;
-	/*-webkit-backface-visibility: hidden;*/
 }
 .face.back {
   display: block;
   transform: rotateY(180deg);
   color: white;
   text-align: center;
-	display: flex;
+	/*display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: center;*/
 }
 
 .centered {

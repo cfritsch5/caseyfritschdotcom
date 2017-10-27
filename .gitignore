@@ -13,6 +13,9 @@ FFFFFF
 ## how to access
 https://andytaylor.me/2012/11/03/nfs-git/
 
+##push to website w/
+git push website master
+
 git commit --date="6 day ago" -m "refactor dropdown menu"
 
 
