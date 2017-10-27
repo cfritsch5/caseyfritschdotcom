@@ -1,0 +1,86 @@
+body {
+  background: grey;
+}
+
+.outerborder {
+  background: #e8eced;
+
+  width: 3.5in;
+  height: 2in;
+  /*border: 1px solid black;*/
+  margin: 5px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+}
+
+.front {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+  	background: #2A2D34;
+  	color: #FFFFFF;
+	}
+
+.main-image {
+	border-radius: 50%;
+	border: 3px solid #386FA4;
+	background: #386FA4;
+}
+
+.logo, .me {
+    width: 100px;
+    background: white;
+    margin: 15px
+}
+
+
+.backborder {
+  background: #e8eced;
+
+  width: 2in;
+  height: 3.5in;
+  /*border: 1px solid black;*/
+  display: flex;
+  justify-content: center;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.back {
+  font-size: 10px;
+  width: 1.5in;
+  text-align: center;
+}
+
+.back a, .back {
+  background: #2A2D34;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.contact-info {
+  text-align: left;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+}
+
+.contact-info img {
+  width: 0.15in;
+  /*background: white;*/
+  /*backgr ound: #386FA4;*/
+  border-radius: 50%;
+  filter: invert(100%);
+  margin: 0 0.025in;
+  /*border: 1px solid #386FA4;*/
+}

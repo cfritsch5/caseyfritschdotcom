@@ -3,7 +3,7 @@ $(document).ready(function(){
   $(".pagelink").on('click', function(event) {
     console.log(event);
     $root.animate({
-      scrollTop: $(event.currentTarget.hash).offset().top },
+      scrollTop: $(event.currentTarget.hash).offset().top - 50 },
       1000
     );
     return false;

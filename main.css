@@ -34,6 +34,7 @@ html {
     z-index: 2;
     background: white;
 		backface-visibility: hidden;
+		-webkit-backface-visibility: hidden;
 }
 
 #f1_container img.logo {
@@ -68,12 +69,16 @@ html {
   width: 300px;
   height: 300px;
   backface-visibility: hidden;
+	/*-webkit-backface-visibility: hidden;*/
 }
 .face.back {
   display: block;
   transform: rotateY(180deg);
   color: white;
   text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .centered {
@@ -84,9 +89,9 @@ html {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    padding: 8%;
+    padding: 9%;
     background: #386FA4;
-    height: 255px;
+    height: 250px;
 }
 
 .centered p {
@@ -101,8 +106,8 @@ html {
 	align-items: center;
 	background: #2A2D34;
 	color: #FFFFFF;
-	height: 85vh;
-	}
+	height: 75vh;
+}
 
 	.sideA {
 		width: 33%;
@@ -269,11 +274,6 @@ section {
 	min-height: 80vh;
 }
 
-footer {
-	height: 30vh;
-	background: black;
-}
-
 #mission {
 	display: flex;
 	flex-direction: column;
@@ -282,6 +282,7 @@ footer {
 }
 #mission p {
 	width: 70%;
+	font-size: 18px;
 }
 
 
@@ -344,4 +345,29 @@ footer {
     -o-transform-origin: 0 0;
     -webkit-transform-origin: 0 0;
     transform-origin: 0 0;
+}
+
+footer {
+	background: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 10px;
+  color: white;
+}
+.footer-links {
+  height: 70px;
+  width: 70px;
+}
+
+.footer-links {
+  padding-left: 10px;
+  padding-right: 10px;
+  filter: invert(100%);
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+	list-style-type: none;
 }
