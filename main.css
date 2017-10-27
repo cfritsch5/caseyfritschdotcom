@@ -49,10 +49,12 @@ html {
   width: 300px;
   height: 300px;
   z-index: 1;
+	-webkit-perspective: 1000;
+	-moz-perspective: 1000;
+	-ms-perspective: 1000;
+	perspective: 1000;
 }
-#f1_container {
-  perspective: 1000px;
-}
+
 #f1_card {
   width: 300px;
   height: 300px;
@@ -60,17 +62,28 @@ html {
   transition: all 1.0s linear;
 }
 #f1_container:hover #f1_card {
-  transform: rotateY(180deg);
+	-webkit-transform: rotateY(180deg);
+-moz-transform: rotateY(180deg);
+-o-transform:rotateY(180deg);
+transform: rotateY(180deg);
+-ms-transform: rotateY(180deg);
 }
 .face {
   position: absolute;
   width: 300px;
   height: 300px;
-  backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+-moz-backface-visibility: hidden;
+backface-visibility: hidden;
+-ms-backface-visibility: hidden;
 }
 .face.back {
   display: block;
-  transform: rotateY(180deg);
+	-webkit-transform: rotateY(180deg);
+-moz-transform: rotateY(180deg);
+-o-transform:rotateY(180deg);
+transform: rotateY(180deg);
+-ms-transform: rotateY(180deg);
   color: white;
   text-align: center;
 }
