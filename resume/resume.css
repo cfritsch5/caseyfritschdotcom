@@ -87,13 +87,22 @@ a#pdf:hover { background: #222; }
 
 .printlinks { visibility: hidden; display: none }
 
+.back {
+  position: absolute;
+  color: white;
+}
+
+.back img {
+  filter: invert();
+}
+
 @media print {
   #pdflink { visibility: hidden; display: none;  }
 
   .weblinks { visibility: hidden; display: none; }
 
   .printlinks { display: inherit; visibility: visible; color: darkgrey;}
-
+  .back {display: none;}
   html { background: none;}
   body { margin: 0}
 }
