@@ -1,24 +1,6 @@
 .DS_Store
-
-
-
-colors
-386FA4
-2A2D34
-840D13
-DD6E42
-FFFFFF
-
-
-## how to access
-https://andytaylor.me/2012/11/03/nfs-git/
-
-##push to website w/
-git push website master
-
-git commit --date="6 day ago" -m "refactor dropdown menu"
-
-
-##
-git commit --amend --date="6 day ago" -m "new message"
-git commit --amend -m "update style"
+notes.txt
+resume/.git
+resume/old versions
+profileimage/*
+old
