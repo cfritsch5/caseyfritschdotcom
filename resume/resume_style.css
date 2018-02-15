@@ -92,7 +92,7 @@ li { border: none; padding-left: 15px;}
 .yui-gf div.first{width:10%;}
 
 
-.printlinks { visibility: hidden; display: none }
+/* .printlinks { visibility: hidden; display: none } */
 
 @media print {
   #pdflink { visibility: hidden; display: none;  }
@@ -103,10 +103,19 @@ li { border: none; padding-left: 15px;}
 
   html { background: none;}
   body { margin: 0}
+  #inner { background: none}
 }
 
 
 
 /*experiments*/
 
-/*li { background: url(greenbullet.png) left center no-repeat; background-size: contain;}*/
+span {
+  font-size: smaller;
+  color: #6e6e6e;
+  font-weight: normal;
+}
+.job h2, .job h4, .project h2 {
+  font-weight: bold;
+  .font-size: 110%;
+}
