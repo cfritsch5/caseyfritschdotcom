@@ -1,2 +1,2 @@
 # caseyfritschdotcom
-personl portfolio and website featuring my projects, adventures, and passions.
+personal portfolio and website featuring my projects, adventures, and passions.
